@@ -1,0 +1,30 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+}
+body{
+  margin: 1rem;
+}
+.nesting{
+  padding-block: 4rem;
+}
+.nesting .list{
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 2rem;
+  margin-inline: -1rem;
+}
+.nesting .list > div{
+  width: 50%;
+  padding-inline: 1rem;
+}
+.nesting article{
+  border-radius: 16px;
+  background-color: cornflowerblue;
+  color: white;
+  padding: 2rem;
+
+}
+.nesting article a:hover{
+  color: darkblue;
+}
